@@ -1,5 +1,5 @@
 # DownFree
-Bot De Telegram : DownFree v.1.0 , Descargador gratis de contenido desde internet a hacia moodles , nexcloud en cuba
+Bot De Telegram : DownFree v.1.0 , Descargador gratis de contenido desde internet a hacia moodles , nexcloud en Cuba
 
 ## Deploy To Koyeb
 
