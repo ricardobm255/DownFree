@@ -1,6 +1,6 @@
 {
   "name": "DownFree",
-  "description": "Bot De Telegram : DownFree v.1.0 , Descargador gratis de contenido desde internet a hacia moodles , nexcloud en cuba",
+  "description": "Bot De Telegram : DownFree v.1.0 , Descargador gratis de contenido desde internet a hacia moodles , nexcloud en Cuba",
   "repository": "https://github.com/ricardobm255/DownFree", 
   "env": {
     "bot_token": {
