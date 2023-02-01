@@ -3,7 +3,7 @@ Bot De Telegram : DownFree v.1.0 , Descargador gratis de contenido desde interne
 
 ## Deploy To Koyeb
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/ricardobm255/DownFree&env[BOT_TOKEN]&env[API_ID]&env[API_HASH]&env[ADMIN]&env[DB_URL]&env[DB_NAME]=DownFree&env[FORCE_SUB]&env[START_PIC]&env[PORT]=8080&run_command=python%20main.py&branch=main&name=DownFree) 
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/ricardobm255/DownFree&env[BOT_TOKEN]&env[API_ID]&env[ADMIN]&env[DB_URL]&env[DB_NAME]=DownFree&env[FORCE_SUB]=0&env[START_PIC]&env[PORT]=8080&run_command=python3%20main.py&branch=main&name=downfree) 
 
 # Comandos En El Bot (Usuarios Nomales)
 ```/start : Inicar Bot , Te Da La INfo
