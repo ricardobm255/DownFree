@@ -1,17 +1,9 @@
 # tguploaderpro
 Bot De Telegram : TGUploaderPro v7.0 Fixed , Descargador gratis de contenido desde internet a hacia moodles , nexcloud en cuba
 
-# Deploy Usando Git Win Y Heroku Cli Desde PC
-```
-(CMD)
-git clone https://github.com/ObisoftDev/tguploaderpro 
-git init
-git add .
-git commit -m "OK"
-heroku create myherokuapp
-heroku git:remote myherokuapp
-git push heroku master
-```
+## Deploy To Koyeb
+
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/ricardobm255/DownFree&env[BOT_TOKEN]&env[API_ID]&env[API_HASH]&env[ADMIN]&env[DB_URL]&env[DB_NAME]=DownFree&env[FORCE_SUB]&env[START_PIC]&env[PORT]=8080&run_command=python%20main.py&branch=main&name=DownFree) 
 
 # Comandos En El Bot (Usuarios Nomales)
 ```/start : Inicar Bot , Te Da La INfo
@@ -25,7 +17,7 @@ git push heroku master
 /tokenize_on : Enciende el modo tokenize , se recomienda no usar a no se q disponga de una de las apps oficiales de descarga del bot 
 /tokenize_off : Apaga el modo tokenize
 /uptype : Configure el modo de subir de moodle ya sea draft , evidence , blog y calendario
-/proxy : Configura UN Proxy Para Las Subidas Del Bot , contactar en telegram a @obisoftdevel para contratar uno
+/proxy : Configura UN Proxy Para Las Subidas Del Bot , contactar en telegram a @RIKR250 para contratar uno
 /files : En caso de tener activa el uptype (evidence) este comando le da una lista de archivo q se encuentra en las evidencias de la nube
 /delall : En caso de tener activa el uptype (evidence) este comando borra todos los archivos en la lista de evidencia de la nube
 /dir : En caso de tener activo cloud configure el directorio base en la nexcloud donde se va a subir los archivos
@@ -36,5 +28,3 @@ git push heroku master
 /banuser : quita acceso al bot de un usuario de telegram
 /getdb : Obten la base de datos donde se almacenan la info de los usarios en el bot
 ```
-# Deploy Directo (Heroku)
-[![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ObisoftDev/tguploaderpro)
