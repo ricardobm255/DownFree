@@ -6,7 +6,7 @@
     "bot_token": {
       "description": "El token del bot"
     },"tl_admin_user": {
-      "description": "usuarion administrador del bote de telegram","value":"*"
+      "description": "usuario administrador del bot de telegram","value":"*"
     }
   }
 }
