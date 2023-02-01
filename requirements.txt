@@ -15,4 +15,3 @@ pyrogram
 tgcrypto
 aiohttp
 yarl
-mega.py
