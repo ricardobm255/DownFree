@@ -1,5 +1,5 @@
-# tguploaderpro
-Bot De Telegram : TGUploaderPro v7.0 Fixed , Descargador gratis de contenido desde internet a hacia moodles , nexcloud en cuba
+# DownFree
+Bot De Telegram : DownFree v.1.0 , Descargador gratis de contenido desde internet a hacia moodles , nexcloud en cuba
 
 ## Deploy To Koyeb
 
