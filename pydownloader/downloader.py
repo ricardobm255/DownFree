@@ -5,7 +5,6 @@ import requests
 from . import youtube
 from . import googledrive
 from . import mediafire
-#from .megacli.mega import Mega
 from .utils import req_file_size,get_file_size,get_url_file_name,slugify,createID
 
 class Downloader(object):
@@ -39,10 +38,6 @@ class Downloader(object):
                 try:
                     url = mediafire.get(url)
                 except:return None
-        elif 'mega.nz' in url:
-                try:
-                    return self._process_mega_download(url,progressfunc,args)
-                except:return None
         elif 'drive.google' in url:
                 try:
                     info = googledrive.get_info(url)
@@ -52,15 +47,6 @@ class Downloader(object):
         if req is None:
            req = requests.get(url,allow_redirects=True,stream=True)
         return self._process_download(url,req,progressfunc=progressfunc,args=args)
-
-    def _process_mega_download(self,megaurl,progressfunc,args):
-        megadl = Mega({'verbose': True})
-        megadl.login()
-        info = megadl.get_public_url_info(megaurl)
-        self.filename = info['name']
-        destpath = self.destpath.replace('/','')
-        megadl.download_url(megaurl,dest_path=destpath,dest_filename=self.filename,progressfunc=progressfunc,args=args)
-        return self.filename
 
     def _process_download(self,url,req,progressfunc=None,args=None):
         if req is None:return None
