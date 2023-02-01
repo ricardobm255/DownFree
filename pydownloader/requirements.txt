@@ -2,4 +2,3 @@ bs4
 requests
 user_agent
 youtube_dl
-mega.py
